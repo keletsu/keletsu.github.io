@@ -1,19 +1,19 @@
 const cacheName = "severstal"
 const cacheFiles = [
-    "/severstal/",
-    "/severstal/index.html",
-    "/severstal/logo.png",
-    "/severstal/assets/index.js",
-    "/severstal/assets/index.css",
-    "/severstal/assets/manifest.webmanifest",
-    "/severstal/model/model.json",
-    "/severstal/model/group1-shard1of7.bin",
-    "/severstal/model/group1-shard2of7.bin",
-    "/severstal/model/group1-shard3of7.bin",
-    "/severstal/model/group1-shard4of7.bin",
-    "/severstal/model/group1-shard5of7.bin",
-    "/severstal/model/group1-shard6of7.bin",
-    "/severstal/model/group1-shard7of7.bin"
+    "/",
+    "/index.html",
+    "/logo.png",
+    "/assets/index.js",
+    "/assets/index.css",
+    "/assets/manifest.webmanifest",
+    "/model/model.json",
+    "/model/group1-shard1of7.bin",
+    "/model/group1-shard2of7.bin",
+    "/model/group1-shard3of7.bin",
+    "/model/group1-shard4of7.bin",
+    "/model/group1-shard5of7.bin",
+    "/model/group1-shard6of7.bin",
+    "/model/group1-shard7of7.bin"
 ]
 
 self.addEventListener("install", (e) => {
