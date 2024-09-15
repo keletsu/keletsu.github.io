@@ -22,7 +22,7 @@ self.addEventListener("install", (e) => {
       (async () => {
         const cache = await caches.open(cacheName);
         console.log("Caching all");
-        await cache.addAll(cacheFiles);
+        for (const file of cacheFiles) await cache.add(file)
       })(),
   );
 });
